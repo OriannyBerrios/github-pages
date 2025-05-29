@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test de la Amistad: ¿Cuánto me conoces realmente?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #0056b3;
+        }
+        .question {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 15px;
+        }
+        .question p {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .options label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        textarea, input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box; /* Para que el padding no afecte el ancho */
+        }
+        .instructions {
+            background-color: #e9f7ef;
+            border-left: 5px solid #00a859;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+        }
+        .note {
+            font-style: italic;
+            color: #666;
+            margin-top: 20px;
+            padding-top: 10px;
+            border-top: 1px dashed #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Test de la Amistad: ¿Cuánto me conoces realmente?</h1>
+
+        <div class="instructions">
+            ¡Hola [Nombre del amigo/a, o simplemente "Amigo/a"]!<br><br>
+            He preparado este pequeño test para ver qué tan bien me conoces. Responde con lo primero que creas que es correcto sobre mí. ¡No hagas trampa preguntando a otros! Es solo por diversión.
+            <br><br>
+            Al final, podrás comparar tus respuestas con las mías para ver qué puntuación obtienes. ¡Mucha suerte!
+        </div>
+
+        <p class="note">Instrucción para ti: Rellena los espacios en blanco con tus respuestas. ¡No compartas este test con las respuestas marcadas!</p>
+
+        ---
+
+        <h2>Sección 1: Gustos y Preferencias</h2>
+
+        <div class="question">
+            <p>1. ¿Cuál es mi color favorito?</p>
+            <div class="options">
+                <label><input type="radio" name="q1" value="a"> Morado</label>
+                <label><input type="radio" name="q1" value="b"> Gris</label>
+                <label><input type="radio" name="q1" value="c"> Negro</label>
+                <label><input type="radio" name="q1" value="d"> Blanco</label>
+            </div>
+            </div>
+
+        <div class="question">
+            <p>2. ¿Qué tipo de música me gusta más?</p>
+            <div class="options">
+                <label><input type="radio" name="q2" value="a"> Rock</label>
+                <label><input type="radio" name="q2" value="b"> Pop-Rock</label>
+                <label><input type="radio" name="q2" value="c"> Pop-Latino</label>
+                <label><input type="radio" name="q2" value="d"> Merengue</label>
+            </div>
+            </div>
+
+        <div class="question">
+            <p>3. ¿Cuál es mi comida chatarra favorita?</p>
+            <div class="options">
+                <label><input type="radio" name="q3" value="a"> Hamburguesa</label>
+                <label><input type="radio" name="q3" value="b"> Shawarma</label>
+                <label><input type="radio" name="q3" value="c"> Pizza</label>
+                <label><input type="radio" name="q3" value="d"> Papas cheddar</label>
+            </div>
+            </div>
+
+        <div class="question">
+            <p>4. ¿Cuál es mi bebida favorita?</p>
+            <div class="options">
+                <label><input type="radio" name="q4" value="a"> Pepsi-Cola</label>
+                <label><input type="radio" name="q4" value="b"> Coca-Cola</label>
+                <label><input type="radio" name="q4" value="c"> Malta</label>
+                <label><input type="radio" name="q4" value="d"> Jugo de Mora</label>
+            </div>
+            </div>
+
+        <div class="question">
+            <p>5. ¿Prefiero la cerveza o el vino?</p>
+            <div class="options">
+                <label><input type="radio" name="q5" value="a"> Vino</label>
+                <label><input type="radio" name="q5" value="b"> Cerveza</label>
+                <label><input type="radio" name="q5" value="c"> Ambas</label>
+                <label><input type="radio" name="q5" value="d"> Ninguna</label>
+            </div>
+            </div>
+
+        <div class="question">
+            <p>6. ¿Cuál es mi estación del año favorita?</p>
+            <div class="options">
+                <label><input type="radio" name="q6" value="a"> Primavera</label>
+                <label><input type="radio" name="q6" value="b"> Verano</label>
+                <label><input type="radio" name="q6" value="c"> Otoño</label>
+                <label><input type="radio" name="q6" value="d"> Invierno</label>
+            </div>
+            </div>
+
+        <div class="question">
+            <p>7. ¿Cuál es mi película favorita?</p>
+            <div class="options">
+                <label><input type="radio" name="q7" value="a"> One Day</label>
+                <label><input type="radio" name="q7" value="b"> Violet and Flich</label>
+                <label><input type="radio" name="q7" value="c"> Ciudades de Papel</label>
+                <label><input type="radio" name="q7" value="d"> Orgullo y Prejuicio</label>
+            </div>
+            </div>
+
+        <div class="question">
+            <p>8. ¿Cuál es mi serie de televisión favorita?</p>
+            <div class="options">
+                <label><input type="radio" name="q8" value="a"> Bridgerton</label>
+                <label><input type="radio" name="q8" value="b"> Dark</label>
+                <label><input type="radio" name="q8" value="c"> You</label>
+                <label><input type="radio" name="q8" value="d"> Thirteen Reasons Why</label>
+            </div>
+            </div>
+
+        <div class="question">
+            <p>9. ¿Qué libro me ha marcado más?</p>
+            <div class="options">
+                <label><input type="radio" name="q9" value="a"> Ciudades de Papel</label>
+                <label><input type="radio" name="q9" value="b"> Buscando a Alaska</label>
+                <label><input type="radio" name="q9" value="c"> El mundo Amarillo</label>
+                <label><input type="radio" name="q9" value="d"> La reina de Espinas</label>
+            </div>
+            </div>
+
+        <div class="question">
+            <p>10. ¿Cuál es mi animal favorito?</p>
+            <div class="options">
+                <label><input type="radio" name="q10" value="a"> Perro</label>
+                <label><input type="radio" name="q10" value="b"> Gato</label>
+                <label><input type="radio" name="q10" value="c"> Lobo</label>
+                <label><input type="radio" name="q10" value="d"> Mariposa</label>
+            </div>
+            </div>
+
+        <div class="question">
+            <p>11. ¿Prefiero la playa o la montaña?</p>
+            <div class="options">
+                <label><input type="radio" name="q11" value="a"> Playa</label>
+                <label><input type="radio" name="q11" value="b"> Montaña</label>
+                <label><input type="radio" name="q11" value="c"> Ambas</label>
+                <label><input type="radio" name="q11" value="d"> Ninguna</label>
+            </div>
+            </div>
+
+        <div class="question">
+            <p>12. ¿Cuál es mi hobby principal?</p>
+            <div class="options">
+                <label><input type="radio" name="q12" value="a"> Dormir</label>
+                <label><input type="radio" name="q12" value="b"> Leer</label>
+                <label><input type="radio" name="q12" value="c"> Escuchar música</label>
+                <label><input type="radio" name="q12" value="d"> Escribir</label>
+            </div>
+            </div>
+
+        <div class="question">
+            <p>13. ¿Soy más de perros o de gatos?</p>
+            <div class="options">
+                <label><input type="radio" name="q13" value="a"> Perros</label>
+                <label><input type="radio" name="q13" value="b"> Gatos</label>
+                <label><input type="radio" name="q13" value="c"> Ambos</label>
+                <label><input type="radio" name="q13" value="d"> Ninguno</label>
+            </div>
+            </div>
+
+        <div class="question">
+            <p>14. ¿Cuál es mi deporte favorito (para ver o practicar)?</p>
+            <div class="options">
+                <label><input type="radio" name="q14" value="a"> Béisbol</label>
+                <label><input type="radio" name="q14" value="b"> Fútbol</label>
+                <label><input type="radio" name="q14" value="c"> Esgrima</label>
+                <label><input type="radio" name="q14" value="d"> Ninguno</label>
+            </div>
+            </div>
+
+        ---
+
+        <h2>Sección 2: Personalidad y Hábitos</h2>
+
+        <div class="question">
+            <p>15. ¿Soy más…?</p>
+            <div class="options">
+                <label><input type="radio" name="q15" value="a"> Introvertido/a</label>
+                <label><input type="radio" name="q15" value="b"> Extrovertido/a</label>
+                <label><input type="radio" name="q15" value="c"> Un poco de ambos</label>
+            </div>
+            </div>
+
+        <div class="question">
+            <p>16. ¿Cuál es mi mayor miedo?</p>
+            <div class="options">
+                <label><input type="radio" name="q16" value="a"> Las alturas</label>
+                <label><input type="radio" name="q16" value="b"> La oscuridad</label>
+                <label><input type="radio" name="q16" value="c"> Perder algo</label>
+                <label><input type="radio" name="q16" value="d"> Presentar un parcial</label>
+            </div>
+            </div>
+
+        <div class="question">
+            <p>17. ¿Cuál es mi mayor sueño o aspiración?</p>
+            <input type="text" name="q17" placeholder="Escribe tu respuesta aquí...">
+            </div>
+
+        <div class="question">
+            <p>18. ¿Cómo reacciono normalmente ante el estrés?</p>
+            <div class="options">
+                <label><input type="radio" name="q18" value="a"> Llora</label>
+                <label><input type="radio" name="q18" value="b"> Se abruma</label>
+                <label><input type="radio" name="q18" value="c"> Deja de comer</label>
+                <label><input type="radio" name="q18" value="d"> Grita</label>
+            </div>
+            </div>
+
+        <div class="question">
+            <p>19. ¿Soy madrugador/a o noctámbulo/a?</p>
+            <div class="options">
+                <label><input type="radio" name="q19" value="a"> Madrugador/a</label>
+                <label><input type="radio" name="q19" value="b"> Noctámbulo/a</label>
+                <label><input type="radio" name="q19" value="c"> Depende del día</label>
+            </div>
+            </div>
+
+        <div class="question">
+            <p>20. ¿Qué me saca de quicio rápidamente?</p>
+            <div class="options">
+                <label><input type="radio" name="q20" value="a"> El desorden</label>
+                <label><input type="radio" name="q20" value="b"> No entender el porqué de las cosas</label>
+                <label><input type="radio" name="q20" value="c"> Las mentiras</label>
+                <label><input type="radio" name="q20" value="d"> Que no me presten atención cuando estoy hablando</label>
+            </div>
+            </div>
+
+        <div class="question">
+            <p>21. ¿Cuál es una de mis manías?</p>
+            <div class="options">
+                <label><input type="radio" name="q21" value="a"> Hablar sola y en voz alta</label>
+                <label><input type="radio" name="q21" value="b"> Alinear objetos</label>
+                <label><input type="radio" name="q21" value="c"> Morderme las uñas o los labios cuando estoy concentrada</label>
+                <label><input type="radio" name="q21" value="d"> Mantener todo en orden</label>
+            </div>
+            </div>
+
+        <div class="question">
+            <p>22. ¿Cómo me gusta celebrar mi cumpleaños?</p>
+            <div class="options">
+                <label><input type="radio" name="q22" value="a"> Sola</label>
+                <label><input type="radio" name="q22" value="b"> Paseando</label>
+                <label><input type="radio" name="q22" value="c"> Compartiendo con amigos</label>
+                <label><input type="radio" name="q22" value="d"> Salir a comer</label>
+            </div>
+            </div>
+
+        <div class="question">
+            <p>23. ¿Qué valoro más en una amistad?</p>
+            <div class="options">
+                <label><input type="radio" name="q23" value="a"> Lealtad</label>
+                <label><input type="radio" name="q23" value="b"> Confianza</label>
+                <label><input type="radio" name="q23" value="c"> Tiempo de calidad</label>
+                <label><input type="radio" name="q23" value="d"> Sinceridad</label>
+            </div>
+            </div>
+
+        <div class="question">
+            <p>24. ¿Cuál es mi lenguaje del amor principal?</p>
+            <div class="options">
+                <label><input type="radio" name="q24" value="a"> Palabras de afirmación</label>
+                <label><input type="radio" name="q24" value="b"> Tiempo de calidad</label>
+                <label><input type="radio" name="q24" value="c"> Regalos</label>
+                <label><input type="radio" name="q24" value="d"> Actos de servicio</label>
+                <label><input type="radio" name="q24" value="e"> Contacto físico</label>
+            </div>
+            </div>
+
+        ---
+
+        <h2>Sección 3: Recuerdos y Experiencias Compartidas</h2>
+
+        <div class="question">
+            <p>25. ¿Dónde nos conocimos?</p>
+            <textarea name="q25" rows="3" placeholder="Escribe tu respuesta aquí..."></textarea>
+            </div>
+
+        <div class="question">
+            <p>26. ¿Cuál es el recuerdo más divertido que tenemos juntos?</p>
+            <textarea name="q26" rows="3" placeholder="Escribe tu respuesta aquí..."></textarea>
+            </div>
+
+        <div class="question">
+            <p>27. ¿Cuál es el viaje más memorable que hemos hecho juntos (si aplica)?</p>
+            <textarea name="q27" rows="3" placeholder="Escribe tu respuesta aquí..."></textarea>
+            </div>
+
+        <div class="question">
+            <p>28. ¿Cuál es una de las cosas más locas que hemos hecho juntos?</p>
+            <textarea name="q28" rows="3" placeholder="Escribe tu respuesta aquí..."></textarea>
+            </div>
+
+        <div class="question">
+            <p>29. ¿Qué es lo que más me gusta de nuestra amistad?</p>
+            <textarea name="q29" rows="3" placeholder="Escribe tu respuesta aquí..."></textarea>
+            </div>
+
+        <div class="question">
+            <p>30. ¿Cuál fue nuestra primera impresión el uno del otro?</p>
+            <textarea name="q30" rows="3" placeholder="Escribe tu respuesta aquí..."></textarea>
+            </div>
+
+        ---
+
+        <h2>Sección 4: Preguntas Aleatorias</h2>
+
+        <div class="question">
+            <p>31. Si tuviera un superpoder, ¿cuál elegiría?</p>
+            <div class="options">
+                <label><input type="radio" name="q31" value="a"> Teletransportarme</label>
+                <label><input type="radio" name="q31" value="b"> Leer mentes</label>
+                <label><input type="radio" name="q31" value="c"> Ser invisible</label>
+            </div>
+            </div>
+
+        <div class="question">
+            <p>32. ¿Qué objeto no puede faltar en mi bolso/mochila?</p>
+            <div class="options">
+                <label><input type="radio" name="q32" value="a"> Llavero</label>
+                <label><input type="radio" name="q32" value="b"> La tarjeta</label>
+                <label><input type="radio" name="q32" value="c"> Gloss</label>
+                <label><input type="radio" name="q32" value="d"> Lápiz</label>
+            </div>
+            </div>
+
+        <div class="question">
+            <p>33. ¿Prefiero escribir o llamar?</p>
+            <div class="options">
+                <label><input type="radio" name="q33" value="a"> Escribir (mensajes)</label>
+                <label><input type="radio" name="q33" value="b"> Llamar</label>
+                <label><input type="radio" name="q33" value="c"> Depende</label>
+            </div>
+            </div>
+
+        <div class="question">
+            <p>34. ¿Cuál es mi talento oculto?</p>
+            <input type="text" name="q34" placeholder="Escribe tu respuesta aquí...">
+            </div>
+
+        <div class="question">
+            <p>35. ¿Cuándo es mi cumpleaños?</p>
+            <div class="options">
+                <label><input type="radio" name="q35" value="a"> 12 de septiembre</label>
+                <label><input type="radio" name="q35" value="b"> 14 de noviembre</label>
+                <label><input type="radio" name="q35" value="c"> 14 de septiembre</label>
+                <label><input type="radio" name="q35" value="d"> 18 de noviembre</label>
+            </div>
+            </div>
+
+        ---
+
+        <h2>Cómo Jugar y Puntuación:</h2>
+        <div class="instructions">
+            <ol>
+                <li>Copia este test y envíaselo a tus amigos (o comparte el enlace si lo subes a un servidor).</li>
+                <li>Pídeles que respondan a cada pregunta basándose en lo que creen saber sobre ti.</li>
+                <li>Una vez que te envíen sus respuestas, compara cada respuesta con las tuyas (¡las respuestas correctas las tienes tú!).</li>
+                <li>Asigna **1 punto** por cada respuesta correcta.</li>
+                <li>Suma los puntos para obtener su puntuación total. La puntuación máxima posible es **35**.</li>
+                <li>Comparte la puntuación con ellos y diles qué tan bien te conocen. ¡Quizás se lleven alguna sorpresa!</li>
+            </ol>
+            <p>¡Que empiecen las respuestas!</p>
+        </div>
+
+        <div class="note">
+            <h3>Instrucciones Adicionales para ti:</h3>
+            <ul>
+                <li>Antes de enviar el test, **guarda tus propias respuestas correctas** en un lugar seguro para poder comparar después.</li>
+                <li>Si optas por respuestas abiertas, la puntuación es más subjetiva, pero puede generar conversaciones más interesantes.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
